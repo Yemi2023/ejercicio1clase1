@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clase 1 ejercicio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <p><h1>Seguro No Paga Cooperativa</h1></p>
+    <div>
+        <img src="https://i.ibb.co/r3B15f4/imagen-snp.jpg" alt="imagen de logo">
+    </div>
+    </header>
+<main>
+    <div class="contenedor">
+        <form action="#">
+        <p>
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre" placeholder="ingresa tu nombre" required>
+        </p>
+        <p>
+        <label for="apellido">Apellido</label>
+        <input type="text" name="Apellido" id="Apellido" placeholder="ingresa tu Apellido" required>
+        </p>
+        <p>
+        <label for="DNI">DNI </label>
+        <input type="number" name="DNI" id="DNI" placeholder="ingresa tu DNI" required>
+        </p>
+        <p>
+        <label for="Email">Email </label>
+        <input type="text" name="Email" id="Email" placeholder="ingresa tu Email" required>
+        </p>
+        <p>
+        <label for="número de teléfono">Nº de tel.</label>
+        <input type="number" name="numero de telefono" id="numero de telefono" placeholder="ingresa tu numero de telefono" required>
+        </p>
+        <p>
+        <label for="planes"></label>
+        <select name="planes" id="planes" onchange="ObtenerValor()">
+        <option value="" selected disabled hidden>Seleccione el plan</option>
+        <option value="$ 500">Básico</option>
+        <option value="$ 1000">Intermedio</option>
+        <option value="$ 1500">Premium</option>
+    </select>
+        </p>
+        <p>
+            <div>
+                <h2 id="valor" valor del plan:></h2>
+            </div>
+        </p>
+        <p>
+            <button type="reset">Borrar datos</button>
+            <button type="submit">Enviar datos</button>
+        </p>    
+        </form>
+    </div>
+</main>
+<footer>
+<div> 
+    <ul>
+        <p>
+        Hecho con ♥ por Yemina Garcia
+        </p>
+        <p>
+        clase 1 Desarrollador web con React Js
+        </p>
+        <p>
+        Programa Argentina 2023 
+        </p>
+        <p><a href="yglgmrp@gmail.com">correo</a></p>
+    </ul>
+</div> 
+</footer>
+    <script src="scrip.js"></script>
+</body>
+</html>
